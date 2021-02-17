@@ -10,9 +10,9 @@ guess = int(input())
 
 while True:
     if guess < answer:
-        print("Nope Sorry, Please guess higher")
+        print("No Sorry, Please guess higher")
     elif guess > answer:  # guess must be greater than answer
-        print("Nope Sorry, Please guess lower")
+        print("No Sorry, Please guess lower")
     elif guess == answer:
         print("Horray, correct answer")
         break
